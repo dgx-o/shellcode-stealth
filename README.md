@@ -29,7 +29,7 @@ The loader employs several evasion techniques:
 4. **🧠 Memory Allocation**: Uses `VirtualAlloc` to allocate RW memory
 5. **🛡️ Permission Modification**: Changes memory protection from RW to RX using `VirtualProtect`
 6. **⚡ API Execution**: Uses `EnumCalendarInfoEx` to execute the shellcode
-7. **✅ Dummy binary**: Embeds a innocent executable (such as `RobloxPlayerInstaller.exe`) as a resource
+7. **✅ Dummy Binary**: Embeds a innocent executable (such as `RobloxPlayerInstaller.exe`) as a resource
 
 ## 🚀 Usage
 
