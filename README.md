@@ -29,6 +29,7 @@ The loader employs several evasion techniques:
 4. **🧠 Memory Allocation**: Uses `VirtualAlloc` to allocate RW memory
 5. **🛡️ Permission Modification**: Changes memory protection from RW to RX using `VirtualProtect`
 6. **⚡ API Execution**: Uses `EnumCalendarInfoEx` to execute the shellcode
+7. **✅ Dummy binary**: Embeds a innocent executable (such as `RobloxPlayerInstaller.exe`) as a resource
 
 ## 🚀 Usage
 
@@ -83,9 +84,9 @@ The loader properly handles memory protection:
 3. Changes protection to EXECUTE_READ (`PAGE_EXECUTE_READ`)
 4. Executes the shellcode
 
-### Execution API
+### Execution
 
-Uses `EnumCalendarInfoEx` instead of more common APIs like `CreateThread` or `EnumChildWindows` to avoid API hooking detection.
+Uses `EnumCalendarInfoEx` instead of more common APIs like `CreateThread` or `EnumChildWindows` to avoid API based detection(s).
 
 ## 📋 Requirements
 
