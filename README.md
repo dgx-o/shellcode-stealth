@@ -13,7 +13,7 @@ This shellcode loader uses several innovative techniques to avoid detection:
 
 ## 🚨 Detection Rate
 
-**Current detection: 2/26** (as reported by KleenScan)  
+**Current detection: 2/36** (as reported by KleenScan)  
 - One detection is marked as "unknown"  
 - One generic detection  
 
