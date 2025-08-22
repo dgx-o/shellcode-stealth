@@ -1,0 +1,2 @@
+#define BIN 101
+
