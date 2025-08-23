@@ -29,6 +29,9 @@
     <ClInclude Include="base32.hpp">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="obfuscation.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="disguise_binary.rc">
@@ -36,6 +39,6 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="disguised_bin.exe" />
+    <None Include="MSBuild.exe" />
   </ItemGroup>
 </Project>
