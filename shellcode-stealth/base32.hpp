@@ -4,7 +4,7 @@
 #include <algorithm>
 typedef unsigned char BYTE;
 namespace base32 {
-    static const std::string base32_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567";
+    static const std::string base32_chars = "I5PGRXTYWOLSEM4ZFVD7U3Q2ABJNHK6C"; // randomized >:)
     static inline bool is_base32(BYTE c) {
         return (isalnum(c) && (std::toupper(c) >= 'A' && std::toupper(c) <= 'Z')) ||
             (c >= '2' && c <= '7');
